@@ -21,7 +21,7 @@ def port_scan(target_host, target_ports):
             print("Bağlantı hatası......")
             break
 
-# Örnek kullanım
+
 target_host = input("Taranacak siteyi giriniz...: ") 
 target_ports = [80, 443, 8080, 8888]  # Kontrol etmek istediğiniz portları buraya ekleyebilirsiniz :)
 
